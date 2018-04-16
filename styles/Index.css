@@ -1,0 +1,248 @@
+.body {
+  text-align: center;
+}
+
+#Video {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900;
+    background-color: #e20000; /*white*/
+    border-style: solid;
+    border-color: #e20000;
+    border-width: 3px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #ffffff;
+    padding: 5px 55px;
+    margin-right: -4px;
+    text-align: center;
+    text-decoration: none;
+    display: relative;
+    font-size: 14px;
+}
+
+#Article {
+    font-family: 'Maven Pro', sans-serif; 
+    font-weight: 900;
+    background-color: #ffffff; /* red */
+    border-style: solid;
+    border-color: #e20000;
+    border-width: 3px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #e20000;
+    padding: 5px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+#section_button_background{
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Load {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900;
+    background-color: #e20000; /*white*/
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 3px;
+    border-radius: 20px;
+    color: white;
+    padding: 9px 120px;
+    margin-right: -5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+#load_background {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-list {
+    /* remove default list styles */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* remove spaces between li tags*/
+    display: none;
+}
+
+.video-list li {
+    display: inline-block;
+    vertical-align: top;
+    width: 95%;
+    height: auto;
+    margin-left: -8px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.v_item-image {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    float: left;
+    margin: 0 12px 0 0;
+    z-index: -1;
+    opacity: 1;
+    filter: alpha(opacity = 100);
+}
+
+.v_item-image:hover {
+    opacity: 0.5;
+    filter: alpha(opacity = 50);
+}
+
+.v_item-title {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    height: auto;
+    margin-top: 2px;
+    width: 100%;
+    font-size:3vw;
+}
+
+.v_item-title:hover {
+    text-decoration: underline;
+}
+
+.v_item-timeago {
+    color: #e20000;
+    font-weight: bold;
+    font-family: 'Maven Pro', sans-serif;
+    width: 50%;
+    font-size:2vw;
+}
+
+.v_comment {
+    color: #e20000;
+    font-weight: bold;
+    font-family: 'Maven Pro', sans-serif;
+    width:50%;
+    font-size:2vw;
+}
+
+.v_item-body {
+    margin: 10px;
+    border-bottom: 1px solid;
+    border-color: #E8E8E8;
+    width: 3000%;
+    height: 200%;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.article-list {
+    /* remove default list styles */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* remove spaces between li tags*/
+}
+
+.article-list li {
+    display: inline-block;
+    vertical-align: top;
+    width: 95%;
+    height: auto;
+    margin-left: -8px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.a_item-image {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    float: left;
+    margin: 0 12px 0 0;
+    opacity: 1;
+    filter: alpha(opacity = 100);
+}
+
+.a_item-image:hover {
+    opacity: 0.5;
+    filter: alpha(opacity = 50);
+}
+
+.a_item-title {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    height: auto;
+    margin-top: 2px;
+    width: 100%;
+    font-size:3vw;
+}
+
+.a_item-title:hover {
+    text-decoration: underline;
+}
+
+.a_item-timeago {
+    color: #e20000;
+    font-weight: bold;
+    font-family: 'Maven Pro', sans-serif;
+    width: 50%;
+    font-size:2vw;
+}
+
+.a_comment {
+    color: #e20000;
+    font-weight: bold;
+    font-family: 'Maven Pro', sans-serif;
+    width:50%;
+    font-size:2vw;
+}
+
+.a_item-body {
+    margin: 10px;
+    border-bottom: 1px solid;
+    border-color: #E8E8E8;
+    width: 3000%;
+    height: 200%;
+    padding-bottom: 20px;
+}
+
+.fa {
+    color: #e20000;
+    font-size:2vw
+}
+
+.v_duration {
+    float:left;
+    background-color: #e20000;
+    position: absolute;
+    border-radius: 3px;
+    padding: 1%;
+    padding-left: 5%;
+    width: auto;
+    height: auto;
+    font-size:2vw;
+    color: #ffffff;
+    font-weight: bold;
+    top: 60%;
+    left: 2%;
+    z-index: 0;
+}
+
+span.fa {
+    position: absolute;
+    /*background-color: #e20000;*/
+    color: #ffffff;
+    top: 65%;
+    left: 3%;
+    z-index: 1;
+}
